@@ -1,6 +1,0 @@
-services:
-  - type: cron
-    name: minimal-cron
-    env: python
-    schedule: "*/5 * * * *"
-    startCommand: python main.py
